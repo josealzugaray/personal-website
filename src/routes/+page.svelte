@@ -38,7 +38,7 @@
     jmalzugaray@uchicago.edu
   </a>
   <a
-    href="https://linkedin.com/in/YOURHANDLE"
+    href="https://linkedin.com/in/josemariaalzugaray"
     target="_blank"
     class="font-mono text-sm text-stone-700 hover:text-blue-800 transition-colors flex items-center gap-2"
   >
