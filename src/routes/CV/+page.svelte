@@ -91,7 +91,9 @@
   const technical = ['Python', 'SQLite', 'HTML', 'Cypher', 'Svelte 5', 'TypeScript', 'Tailwind', 'Data Analysis'];
 </script>
 
-
+<svelte:head>
+<title>CV – José María Alzugaray</title>
+</svelte:head>
 
 <!-- Page header -->
 <div class="flex items-start justify-between pb-8 mb-8 border-b border-stone-200">

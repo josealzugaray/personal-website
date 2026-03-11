@@ -41,7 +41,7 @@ const places: Place[] = [
 </script>
 
 <svelte:head>
-  <title>About — José María Alzugaray</title>
+<title>About – José María Alzugaray</title>
 </svelte:head>
 
 <!-- Page header -->

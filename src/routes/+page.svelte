@@ -10,8 +10,9 @@
 </script>
 
 <svelte:head>
-  <title>José María Alzugaray</title>
+<title>Home – José María Alzugaray</title>
 </svelte:head>
+
 
 
 <section class="pt-4 pb-18 border-b border-stone-200">
