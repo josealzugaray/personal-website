@@ -45,7 +45,7 @@ const places: Place[] = [
 </svelte:head>
 
 <!-- Page header -->
-<div class="flex items-end justify-between pb-8 mb-8 border-b border-stone-200">
+<div class="flex flex-col gap-4 pb-8 mb-8 border-b border-stone-200 sm:flex-row sm:items-end sm:justify-between">
   <h1 class="font-serif text-3xl font-normal text-stone-900">
     About <em class="text-stone-400">me</em>
   </h1>
@@ -56,7 +56,7 @@ const places: Place[] = [
 </div>
 
 <!-- Bio -->
-<section class="grid grid-cols-[1fr_280px] gap-8 mb-12">
+<section class="grid grid-cols-1 gap-8 mb-12 sm:grid-cols-[1fr_280px]">
   <div class="space-y-4">
     <p class="text-sm text-stone-600 font-light leading-relaxed">
   I grew up in Montevideo, Uruguay, the middle of three siblings. Before
@@ -100,7 +100,7 @@ const places: Place[] = [
   <p class="font-mono font-bold text-xs text-black tracking-widest uppercase mb-6">
     Interests & Hobbies
   </p>
-  <div class="grid grid-cols-3 gap-6">
+  <div class="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3">
     {#each [
       { title: 'Playing and Listening to Music',},
       { title: 'Reading',},
@@ -128,7 +128,7 @@ const places: Place[] = [
   <MapLibre
     center={[10, 20]}
     zoom={1.2}
-    class="h-[400px] w-full border border-stone-200"
+    class="h-[280px] w-full border border-stone-200 sm:h-[400px]"
     style="https://basemaps.cartocdn.com/gl/positron-gl-style/style.json"
   >
     {#each places as place}

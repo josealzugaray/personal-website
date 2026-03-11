@@ -110,7 +110,7 @@
     Education
   </h2>
   {#each education as entry}
-    <div class="grid grid-cols-[130px_1fr] gap-8 py-4 border-b border-stone-100">
+    <div class="grid grid-cols-1 gap-2 py-4 border-b border-stone-100 sm:grid-cols-[130px_1fr] sm:gap-8">
       <span class="font-mono text-xs text-stone-400 pt-0.5 leading-relaxed">{entry.years}</span>
       <div>
         <p class="text-sm font-medium text-stone-900 mb-0.5">{entry.title}</p>
@@ -127,7 +127,7 @@
     Research
   </h2>
   {#each research as entry}
-    <div class="grid grid-cols-[130px_1fr] gap-8 py-4 border-b border-stone-100">
+    <div class="grid grid-cols-1 gap-2 py-4 border-b border-stone-100 sm:grid-cols-[130px_1fr] sm:gap-8">
       <span class="font-mono text-xs text-stone-400 pt-0.5 leading-relaxed">{entry.years}</span>
       <div>
         <p class="text-sm font-medium text-stone-900 mb-0.5">{entry.title}</p>
@@ -144,7 +144,7 @@
     Teaching
   </h2>
   {#each teaching as entry}
-    <div class="grid grid-cols-[130px_1fr] gap-8 py-4 border-b border-stone-100">
+    <div class="grid grid-cols-1 gap-2 py-4 border-b border-stone-100 sm:grid-cols-[130px_1fr] sm:gap-8">
       <span class="font-mono text-xs text-stone-400 pt-0.5 leading-relaxed">{entry.years}</span>
       <div>
         <p class="text-sm font-medium text-stone-900 mb-0.5">{entry.title}</p>

@@ -28,7 +28,8 @@
     My work moves between philosophy and digital humanities.
   </p>
 
-<div class="border border-stone-300 p-6 inline-flex flex-col gap-3 mt-2 min-w-64">
+
+<div class="border border-stone-300 p-4 sm:p-6 w-full sm:w-fit flex flex-col gap-3 mt-2">
   <p class="font-mono text-xs text-stone-900 tracking-widest uppercase mb-1">Contact</p>
   
   <a
@@ -60,7 +61,8 @@
 </section>
 
 <!-- Two-column section -->
-<section class="pt-12 grid grid-cols-2 gap-16">
+
+<section class="pt-12 grid grid-cols-1 gap-10 sm:grid-cols-2 sm:gap-16">
 
   <!-- Recent work -->
   <div>
