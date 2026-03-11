@@ -92,7 +92,7 @@
 </script>
 
 <svelte:head>
-<title>CV – José María Alzugaray</title>
+<title> CV – José María Alzugaray</title>
 </svelte:head>
 
 <!-- Page header -->
