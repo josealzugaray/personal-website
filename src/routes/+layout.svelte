@@ -6,9 +6,8 @@
 </script>
 
 
-
 <svelte:head>
-  <link rel="icon" href={favicon} />
+  <link rel="icon" href="/logo.svg" />
 </svelte:head>
 
 

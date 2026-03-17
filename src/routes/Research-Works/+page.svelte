@@ -21,7 +21,7 @@
       description:
         'A computational text analysis of YouTube speech transcriptions from Spanish politician Cayetana Álvarez de Toledo. The corpus was built from cleaned and TEI-encoded transcripts, then analyzed using multiple NLP methods including topic modeling, document similarity, and clustering. Final project for Digital Texts I — currently in progress.',
       tags: ['NLP', 'TEI', 'Corpus Analysis', 'Python', 'Digital Humanities', 'In Progress'],
-      link: '',
+      link: 'https://github.com/josealzugaray/cayetana-corpus.git',
     },
     {
       title: 'Personal Website',
