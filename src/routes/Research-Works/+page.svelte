@@ -119,7 +119,7 @@
     if (category === 'philosophy')  return 'text-amber-800 border-amber-200 bg-amber-50';
     return 'text-emerald-800 border-emerald-200 bg-emerald-50';
   }
-Card.</script>
+</script>
 
 <svelte:head>
   <title>Inquiries — José María Alzugaray</title>
@@ -189,10 +189,10 @@ Card.</script>
             </a>
           {/if}
         {#if item.contact}
-          <Card.Description class="text-xs font-light text-stone-400">
-            {item.contact}
-          </Card.Description>
-        {/if}
+            <span class="font-mono text-xs text-stone-400">
+              {item.contact}
+            </span>
+          {/if}
       </Card.Footer>
     </Card.Root>
   {/each}
