@@ -86,6 +86,15 @@
       tags: ['Education', 'Comparative Analysis', 'Published'],
       link: 'https://reporter.um.edu.uy',
     },
+    {
+      title: 'Human Understanding vs. Artificial "Understanding" - An Epistemological Comparison',
+      year: '2026',
+      category: 'philosophy',
+      description:
+        'Comparative paper analyzing the epistemological differences between human understanding and artificial "understanding" in AI systems. Explores concepts of knowledge, consciousness, and meaning from both philosophical and computational perspectives.',
+      tags: ['Epistemology', 'AI', 'Comparative Analysis'],
+      link: 'Contact me via email for a copy of the paper',
+    }
   ];
 
   const categories: { value: Category; label: string }[] = [
