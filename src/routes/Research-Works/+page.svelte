@@ -10,6 +10,7 @@
     description: string;
     tags: string[];
     link: string;
+    contact?: string;
   };
 
 //Research and development projects/works
@@ -84,7 +85,7 @@
       description:
         'Comparative analysis of educational systems and teacher training models, published in Repórter (reporter.um.edu.uy).',
       tags: ['Education', 'Comparative Analysis', 'Published'],
-      link: 'https://reporter.um.edu.uy',
+      link: 'https://reporter.um.edu.uy/la-cuestion-de-la-educacion-una-comparacion-entre-finlandia-y-estados-unidos/',
     },
     {
       title: 'Human Understanding vs. Artificial "Understanding" - An Epistemological Comparison',
@@ -93,7 +94,8 @@
       description:
         'Comparative paper analyzing the epistemological differences between human understanding and artificial "understanding" in AI systems. Explores concepts of knowledge, consciousness, and meaning from both philosophical and computational perspectives.',
       tags: ['Epistemology', 'AI', 'Comparative Analysis'],
-      link: 'Contact me via email for a copy of the paper',
+      link: '',
+      contact: 'Contact me for a copy of the paper'
     }
   ];
 
