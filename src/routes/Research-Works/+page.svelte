@@ -95,7 +95,7 @@
         'Comparative paper analyzing the epistemological differences between human understanding and artificial "understanding" in AI systems. Explores concepts of knowledge, consciousness, and meaning from both philosophical and computational perspectives.',
       tags: ['Epistemology', 'AI', 'Comparative Analysis'],
       link: '',
-      contact: 'Contact me for a copy of the paper'
+      contact: '->Contact me for a copy of the paper'
     }
   ];
 
