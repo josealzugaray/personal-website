@@ -119,7 +119,7 @@
     if (category === 'philosophy')  return 'text-amber-800 border-amber-200 bg-amber-50';
     return 'text-emerald-800 border-emerald-200 bg-emerald-50';
   }
-</script>
+Card.</script>
 
 <svelte:head>
   <title>Inquiries — José María Alzugaray</title>
@@ -180,13 +180,18 @@
           {/each}
         </div>
         {#if item.link}
-          <a
-            href={item.link}
-            target="_blank"
-            class="font-mono text-xs text-blue-800 hover:underline"
-          >
+            <a
+              href={item.link}
+              target="_blank"
+              class="font-mono text-xs text-blue-800 hover:underline"
+           >
             View
-          </a>
+            </a>
+          {/if}
+        {#if item.contact}
+          <Card.Description class="text-xs font-light text-stone-400">
+            {item.contact}
+          </Card.Description>
         {/if}
       </Card.Footer>
     </Card.Root>
